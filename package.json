@@ -1,0 +1,26 @@
+{
+  "name": "qaminderagraduate",
+  "version": "1.0.0",
+  "description": "Quality Assurance Engineer Graduate practical exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "challenge1": "./node_modules/.bin/wdio --spec ./test/specs/challenge1.specs.js",
+    "challenge2": "./node_modules/.bin/wdio --spec ./test/specs/challenge2.specs.js",
+    "challenge3": "./node_modules/.bin/wdio --spec ./test/specs/challenge3.specs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-webdriverio": "^0.4.3",
+    "selenium-standalone": "^6.13.0",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "wdio-spec-reporter": "^0.1.4"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Quality Assurance Engineer Graduate practical exercise",
   "main": "index.js",
   "scripts": {
-    "test": "wdio",
+    "test": "./node_modules/.bin/wdio",
     "challenge1": "./node_modules/.bin/wdio --spec ./test/specs/challenge1.specs.js",
     "challenge2": "./node_modules/.bin/wdio --spec ./test/specs/challenge2.specs.js",
     "challenge3": "./node_modules/.bin/wdio --spec ./test/specs/challenge3.specs.js"

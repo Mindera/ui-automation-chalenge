@@ -9,7 +9,6 @@ describe('Mindera QA Graduate Challenge 1:',function() {
     describe('Mindera QA Graduate Challenge 1.1 :',function() {
         it('You must click on the People&Culture button in order to make the test can pass', function () {
             /** Insert the code here */
-            challenge1Page.peopleAndCulture.click();
             expect(browser.getUrl()).to.be.equal("https://www.mindera.com/people-and-culture/");
         });
     });

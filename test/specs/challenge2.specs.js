@@ -1,9 +1,9 @@
 var expect = require('chai').expect;
 var challenge2Page = require('../pageObjects/challenge2.page');
 
-describe('Mindera QA Graduate Challenge 2:',function() {
+describe('Mindera QA Graduate Challenge 2:', function () {
 
-    beforeEach(function() {
+    beforeEach(function () {
         challenge2Page.open();
     });
 

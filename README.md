@@ -34,7 +34,7 @@ Github repository to fork: https://github.com/Mindera/ui-automation-chalenge
 
 ### Setting up 
 
-To run the testes you must first make sure you have Noje.js installed on your machine
+To run the tests you must first make sure you have Node.js installed on your machine
 
 Then the first thing you must do is a fresh installation, to do that you must run the following command:
 
@@ -46,7 +46,7 @@ After this you must have all set up to start running the tests
 
 ### Running the tests
 
-To run the tests you can run them separately or all toguether.
+To run the tests you can run them separately or all together.
 
 If you want to run all the suite tests run the following command:
 

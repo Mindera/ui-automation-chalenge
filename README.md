@@ -18,6 +18,8 @@ Now that you figured how this framework works let's go to the next level :-). On
 
 The game consists in shoot bubbles that are going to keep showing in the screen, every time you shoot a bubble your score board will increase. On this challenge you must open the game webpage and wait a 5 seconds, meanwhile a few bubbles (you don't know how many) are going to show up on the screen  and you will need to count the number of bubbles that showed up during the time you waited and then you must shoot (click on) all of them. The score board will appear and will increase every time you shoot a bubble, so you must create an ```expect()``` to assert that the score displayed is the same as the number of bubbles that showed up during the time you waited.
 
+**BONUS:** Run an endless test that is clicking on bubbles as fast as possible and validating the counter every time it clicks. See if you can do it so that no more than one bubble is ever present on the screen! :)
+
 ## Challenge 3
 
 This last challenge is to test your ability to find some bugs :). On this last challenge we will give you a form where you are free to do and write an automated test script. The form might have some bugs so let’s see how many bugs your test script can catch.

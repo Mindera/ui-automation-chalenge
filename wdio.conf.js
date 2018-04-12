@@ -4,13 +4,13 @@ exports.config = {
     ],
     suites: {
         example1: [
-            './test/specs/example1.spec.js',
+            './test/specs/example1.spec.js'
         ],
         example2: [
-            './test/specs/example2.spec.js',
+            './test/specs/example2.spec.js'
         ],
         example3: [
-            './test/specs/example3.spec.js',
+            './test/specs/example3.spec.js'
         ]
     },
     exclude: [],
@@ -33,8 +33,8 @@ exports.config = {
     reporters: ['spec'],
     mochaOpts: {
         ui: 'bdd',
-        timeout:50000,
-    },
+        timeout: 50000
+    }
     //
     // =====
     // Hooks
@@ -146,4 +146,4 @@ exports.config = {
      */
     // onComplete: function(exitCode, config, capabilities) {
     // }
-}
+};

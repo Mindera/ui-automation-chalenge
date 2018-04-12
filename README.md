@@ -6,7 +6,7 @@ On this challenge we are going to use WebdriverIO to create automated test scrip
 
 On this first challenge let's do some tests on Mindera’s Public Website. The objective is for you to implement or change the test scripts in order to make them all pass. They are divided in 3 and you must:
 
-* Automatically click on the “PEOPLE & CULTURE” button present on our webpage. The selector for the button is already defined as ```peopleAndCulture``` in the file ```challenge1.page.js``` so you must implement a click on the button so that way the test can pass.
+* Automatically click on the “PEOPLE & CULTURE” button present on our webpage. The selector for the button is already defined as ```peopleAndCulture``` in the file ```challenge1.page.js``` so you must implement a click on the button so that way the test can pass. **BONUS:** Find another valid CSS selector for the same button!
 
 * Complete the ```expect()``` so that way the test can pass.
 
